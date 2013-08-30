@@ -1,0 +1,7 @@
+*.tlog
+*.sdf
+*.suo
+ipch/*
+Debug/*
+*/Debug/*
+*.swp
