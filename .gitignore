@@ -1,5 +1,6 @@
 *.tlog
 *.sdf
+*.opensdf
 *.suo
 ipch/*
 Debug/*
