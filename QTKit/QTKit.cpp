@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include "Movies.h"
+#include "QTTimeCode.c"
 
 using namespace std;
 
@@ -19,6 +19,7 @@ int _tmain(int argc, _TCHAR* argv[])
     wchar_t* filepath = argv[1];
     cout << "Target file: ";
     wcout << filepath << endl;
+
     if (wcscmp(argv[2], L"rm_timecode") == 0)
     {
       cout << "Removing timecode track" << endl;
