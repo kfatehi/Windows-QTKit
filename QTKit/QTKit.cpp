@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include "Movies.h"
 
 using namespace std;
 

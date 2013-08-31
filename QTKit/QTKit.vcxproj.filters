@@ -24,6 +24,849 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="quicktime\include\ADSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ADSPSecure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AEDataModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AEObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AEPackObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AERegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AEUserTermTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AGP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AIFF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Aliases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Appearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AppleEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AppleGuide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AppleScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AppleTalk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ASDebugging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ASRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ATA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ATSLayoutTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ATSTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ATSUnicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AVComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\AVLTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Balloons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CarbonEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CardServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFBag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFBundle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFCharacterSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFPlugIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFPreferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFPropertyList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFStringEncodingExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFTimeZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFURL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CFURLAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMAcceleration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMCalibrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMConversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMICCProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMMComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMPRComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CMScriptingPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CodeFragments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Collections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ColorPicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ColorPickerComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CommResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ConditionalMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Connections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ConnectionTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ControlDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ControlStrip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CoreFoundation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CRMSerialDevices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CryptoMessageSyntax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CTBUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\CursorDevices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DatabaseAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DateTimeUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Debugging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DeskBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DeviceControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Devices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Dialogs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DigitalSignature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DiskInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Disks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Displays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Drag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DrawSprocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DriverFamilyMatching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DriverGestalt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DriverServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DriverSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\DriverSynchronization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Editions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ENET.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\EPPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\fenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FileSigning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FileTransfers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FileTransferTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FileTypesAndCreators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FindByContent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Finder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FinderRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FixMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Folders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Fonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FontSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\fp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\FSM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Gestalt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXEnvironment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXFonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXPrinterDrivers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXPrinting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\GXTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\HFSVolumes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\HID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\HTMLRendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\HyperXCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\IAExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Icons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ImageCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ImageCompression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\InputSprocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Interrupts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\IntlResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\IsochronousDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\JManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\LanguageAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Lists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\LocationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\LowMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MacErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MacHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MachineExceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MacMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MacTCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MacTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MacWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Math64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MediaHandlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Menus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MIDI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MixedMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MovieManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Movies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\MoviesFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Multiprocessing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\NameRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Navigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\NetSprocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\NetworkSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\NSL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\NSLUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\NumberFormatting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCEAuthDir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCEErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCEMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCEMessaging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCEStandardDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCEStandardMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OCETemplates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OpenTransportKernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OpenTransportProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OpenTransportProviders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OpenTransportUNIX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OSA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OSAComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OSAGeneric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\OSUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Packages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Palettes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Patches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PCCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PCCardAdapterPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PCCardEnablerPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PCCardTuples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PCI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PEFBinaryFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PictUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PLStringFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Power.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\PPCToolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Printing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Processes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DAcceleration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DCustomElements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DDrawContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DPick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QD3DWinViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QDOffscreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QTContentRestrictions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QTML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QTSMovie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QTStreamingComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Quickdraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QuickdrawText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QuickTimeComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QuickTimeMusic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QuickTimeStreaming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QuickTimeVR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\QuickTimeVRFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\RAVE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\RAVESystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Retrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ROMDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ScalerStreamTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ScalerTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Scrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SCSI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SegLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SFNTLayoutTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SFNTTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ShutDown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Slots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SocketServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SoundComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SoundInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SoundSprocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Speech.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SpeechRecognition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\SpeechSynthesis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\StandardFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Start.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\StringCompare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Telephones.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Terminals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TerminalTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TextCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TextEncodingConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TextServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TextUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ToolUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Translation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TranslationExtensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Traps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\TSMTE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\UnicodeConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\UnicodeUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\URLAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\UTCUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\Video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\VideoServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\WorldScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quicktime\include\ZoomedVideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
