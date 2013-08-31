@@ -38,6 +38,13 @@
 //////////
 
 #include "QTTimeCode.h"
+#include "QuickTimeComponents.h"
+#include "ToolUtils.h"
+#include "Resources.h"
+#include "Traps.h"
+#include "TextCommon.h"
+#include "Quickdraw.h"
+#include "QuickdrawText.h"
 
 
 //////////
@@ -95,6 +102,8 @@ void QTTC_DeleteTimeCodeTracks (Movie theMovie)
 // Add a timecode track to the specified movie.
 //
 //////////
+
+// TODO this actually applies the damn thing
 
 OSErr QTTC_AddTimeCodeToMovie (Movie theMovie, OSType theType)
 {
@@ -206,9 +215,6 @@ OSErr QTTC_AddTimeCodeToMovie (Movie theMovie, OSType theType)
 	
 	// use the starting time to figure out the dimensions of track	
 	TCTimeCodeToString(myHandler, &myTCDef, &myTCRec, myString);
-	TextFont(myTextOptions.txFont);
-	TextFace(myTextOptions.txFace);
-	TextSize(myTextOptions.txSize);
 	GetFontInfo(&myFontInfo);
 	
 	// calculate track width and height based on text	
@@ -322,12 +328,12 @@ OSErr QTTC_AddTimeCodeToMovie (Movie theMovie, OSType theType)
 	myErr = AddTrackReference(myTypeTrack, myTrack, TimeCodeMediaType, NULL);
 	
 bail:
-	if (myDesc != NULL)
+	/*if (myDesc != NULL)
 		DisposeHandle((Handle)myDesc);
 		
 	if (myFrameHandle != NULL)
 		DisposeHandle((Handle)myFrameHandle);
-
+*/
 	return(myErr);
 }
 
@@ -339,23 +345,11 @@ bail:
 //
 //////////
 
+// TODO mk_timecode will use the setters in this function
+
 Boolean QTTC_GetTimeCodeOptions (void)
 {
-	DialogPtr			myDialog = NULL;
-	short				myItem = kStdCancelItemIndex;
-	short				myKind;
-	ControlHandle		myControl = NULL;
-	Handle				myHandle = NULL;
-	MenuHandle			myMenu = NULL;
-	Rect				myRect;
-	GrafPtr				myPort;
-	
-	GetPort(&myPort);
-	
-	myDialog = GetNewDialog(kTimeCodeDialogID, NULL, (WindowPtr)-1L);
-	if (myDialog == NULL)
-		goto bail;
-	
+/*	
 	SetDialogDefaultItem(myDialog, kStdOkItemIndex);
 	SetDialogCancelItem(myDialog, kStdCancelItemIndex);
 
@@ -550,148 +544,8 @@ bail:
 	MacSetPort(myPort);
 	
 	return(myItem == kStdOkItemIndex);
-}
-
-
-//////////
-//
-// QTTC_OptionsUserItemProcedure
-// A user-item procedure to draw a box in the options dialog box.
-//
-//////////
-
-PASCAL_RTN void QTTC_OptionsUserItemProcedure (DialogPtr theDialog, short theItem)
-{
-	Handle						myItemHandle = NULL;
-	Rect						myRect;
-	ControlHandle				myControl = NULL;
-	StringPtr					mySign = NULL;
-	
-	if (theItem != kItemIsNeg)
-		return;
-
-	MacSetPort(GetDialogPort(theDialog));
-
-	myControl = QTTC_GetDItemRect(theDialog, kItemIsNeg, &myRect);
-	MoveTo(myRect.left + 2, myRect.top + 17);
-	MacFrameRect(&myRect);
-	
-	MacInsetRect(&myRect, 1, 1);
-	EraseRect(&myRect);
-	MacInsetRect(&myRect, -1, -1);
-
-	TextSize(kTextBigSize);
-	
-	if (gIsNeg) 
-		mySign = QTUtils_ConvertCToPascalString("-");	
-	else
-		mySign = QTUtils_ConvertCToPascalString("+");	
-		
-	DrawString(mySign);	
-	
-	TextSize(kTextRegSize);
-	free(mySign);
-}
-
-
-//////////
-//
-// QTTC_SetDialogTextNumber 
-// Set and highlight the text of a dialog item.
-//
-//////////
-
-void QTTC_SetDialogTextNumber (DialogPtr theDialog, short theItem, long theNumber)
-{
-	Str255				myText;
-
-	NumToString(theNumber, myText);
-	SetDialogItemText((Handle)QTTC_GetDItemHandle(theDialog, theItem), myText);
-	SelectDialogItemText(theDialog, theItem, 0, 32767);
-}
-
-
-//////////
-//
-// QTTC_SetDialogTextString 
-// Set and highlight the text of a dialog item.
-//
-//////////
-
-void QTTC_SetDialogTextString (DialogPtr theDialog, short theItem, StringPtr theString)
-{
-	SetDialogItemText((Handle)QTTC_GetDItemHandle(theDialog, theItem), theString);
-	SelectDialogItemText(theDialog, theItem, 0, 32767);
-}
-
-
-//////////
-//
-// QTTC_ValidateDialogLong 
-// Validate a long value.
-//
-//////////
-
-Boolean QTTC_ValidateDialogLong (DialogPtr theDialog, short theItem, long *theResult)
-{
-	Str255				myText;
-	ControlHandle		myHandle;
-	Boolean				IsDigitFound = false;
-	short				myIndex;
-
-	myHandle = QTTC_GetDItemHandle(theDialog, theItem);
-	GetDialogItemText((Handle)myHandle, myText);
-
-	for (myIndex = 1; myIndex < myText[0]; myIndex++) {
-		if (myText[myIndex] >= '0' && myText[myIndex] <= '9') {
-			IsDigitFound = true;
-		} else if (IsDigitFound) {
-			myText[0] = myIndex - 1;
-			break;
-		} else if (myText[myIndex] != ' ') {
-			SelectDialogItemText(theDialog, theItem, 0, 32767);
-			SysBeep(1);
-			return(false);
-		}
-	}
-
-	StringToNum(myText, theResult);
-	return(true);
-}
-
-
-//////////
-//
-// QTTC_GetDItemHandle 
-// Get the handle of the specified dialog item.
-//
-//////////
-
-ControlHandle QTTC_GetDItemHandle (DialogPtr theDialog, short theItem)
-{
-	short				myKind;
-	ControlHandle		myHandle;
-	Rect				myRect;
-
-	GetDialogItem(theDialog, theItem, &myKind, (Handle *)&myHandle, &myRect);
-	return(myHandle);
-}
-
-
-//////////
-//
-// QTTC_GetDItemRect 
-// Get the rectangle surrounding the specified dialog item.
-//
-//////////
-
-ControlHandle QTTC_GetDItemRect (DialogPtr theDialog, short theItem, Rect *theRect)
-{
-	short				myKind;
-	ControlHandle		myHandle;
-
-	GetDialogItem(theDialog, theItem, &myKind, (Handle *)&myHandle, theRect);
-	return(myHandle);
+*/
+  return true; // TODO feh
 }
 
 
@@ -773,17 +627,7 @@ void QTTC_ShowTimeCodeSource (Movie theMovie)
 
 void QTTC_ShowStringToUser (StringPtr theString)
 {
-	short 		mySavedResFile;
-
-	// get the current resource file and set the application's resource file
-	mySavedResFile = CurResFile();
-	UseResFile(gAppResFile);
-
-	ParamText(theString, NULL, NULL, NULL);
-	Alert(kTimeCodeAlertID, NULL);
-	
-	// restore the original resource file
-	UseResFile(mySavedResFile);
+  std::cout << theString << std::endl;
 }
 
 
